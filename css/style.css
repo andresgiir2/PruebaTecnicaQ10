@@ -5478,6 +5478,7 @@ button.bg-danger:focus {
 
 .bg-light {
   background-image: url(/img/ELEMENTO\ 1.webp) !important;
+  background-color: var(--light) !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
