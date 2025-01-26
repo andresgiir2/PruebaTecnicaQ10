@@ -10,8 +10,11 @@
             // Agrega la clase active al enlace que se clickeó
             $(this).addClass('active');
         });
+
+   
     });
-    // boton para voler al inicio de la pagina
+
+ // boton para voler al inicio de la pagina
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             $('.back-to-top').fadeIn('slow');
