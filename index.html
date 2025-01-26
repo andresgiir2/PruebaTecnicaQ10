@@ -47,10 +47,7 @@
                         href="https://api.whatsapp.com/send?phone=573137181411&text=Saludos,%20estoy%20interesado%20en%20saber%20m%c3%a1s%20acerca%20de%20Q10">
                         <i class="fab fa-whatsapp"></i>
                     </a>
-                    <a class="text-primary px-2" href="">
-                        <i class="fab fa-comment"></i>
-                    </a>
-                    <a class="text-primary px-2" href="">
+                    <a class="text-primary px-2" href="https://www.linkedin.com/company/q10software/">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
                 </div>
@@ -63,7 +60,7 @@
     <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5 fixed-top">
             <a href="index.html" class="navbar-brand ml-lg-3">
-                <img src="img/LOGO PROGRAMA PARTNER Q10 AZUL.png" alt="Logo">
+                <img src="img/LOGO PROGRAMA PARTNER Q10 AZUL.png" alt="Logo" class="img-fluid" style="max-width: 200px;">
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -86,8 +83,8 @@
         <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item position-relative active" style="min-height: 100vh;">
-                    <img class="position-absolute w-100 h-100" src="img/programming-background-collage.jpg"
-                        style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 img-fluid" src="img/programming-background-collage.jpg"
+                        style="object-fit: cover;" >
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h3 class="display-3 text-capitalize text-white mb-3">Programa Partners Q10</h3>
@@ -123,7 +120,7 @@
                                 <i class="fas fa-users fa-3x"></i>
                                 <h6 class="text-uppercase">Mas de</h6>
                                 <h3 class="display-4 text-primary">
-                                    <span data-toggle="counter-up">3,000,000</span>
+                                    <span data-toggle="counter-up">3</span>M
                                 </h3>
                                 <h6 class="text-uppercase">De Usuarios Activos</h6>
                             </div>
@@ -272,26 +269,27 @@
 
 
     <!-- Footer Start -->
-    <div class="footer container-fluid position-relative bg-dark py-5" style="margin-top: 90px;" id="contacto">
+    <div class="footer container-fluid bg-dark py-5" style="margin-top: 90px; background-image: url('img/ELEMENTO 2.webp'); background-size: cover; background-position: center;" id="contacto">
         <div class="container pt-5">
             <div class="row">
-                <div class="col-lg-6 pr-lg-5 mb-5">
-                    <a href="index.html" class="navbar-brand">
+                <!-- Sección de contacto a la izquierda -->
+                <div class="col-lg-6 mb-5 text-white">
+                    <a href="#inicio" class="navbar-brand">
                         <h1 class="mb-3 text-white"><span class="text-primary">Q10</span> Partners</h1>
                     </a>
                     <p><i class="fa fa-phone-alt mr-2"></i>(+57) 604 590 64 99 </p>
                     <p><i class="fa fa-envelope mr-2"></i>info@q10.com</p>
                 </div>
-
-                <!-- Formulario de contacto -->
-                <div class="col-lg-6" style="margin-top: 10px;">
+    
+                <!-- Formulario de contacto a la derecha -->
+                <div class="col-lg-6">
                     <h4 class="text-white mb-4">Contáctanos</h4>
                     <form action="#" method="POST">
                         <div class="form-group">
                             <input type="text" class="form-control" id="name" placeholder="Nombres" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name" placeholder="Institucion - Ciudad" required>
+                            <input type="text" class="form-control" id="institution" placeholder="Institucion - Ciudad" required>
                         </div>
                         <div class="form-group">
                             <input type="number" class="form-control" id="phone" placeholder="Telefono - Celular" required>
